@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Music Video</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #f5a623;
+        }
+        .animate-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation: moveBox 3s infinite alternate;
+        }
+        @keyframes moveBox {
+            from { left: 0; }
+            to { left: 300px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Favorite Song</h1>
+    <p>Check out this awesome song!</p>
+    
+    <!-- Embedded YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+
+    <h2>Watch this box move! 🚀</h2>
+    <div class="animate-box"></div>
+
+</body>
+</html>
